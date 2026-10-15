@@ -3,10 +3,13 @@ import React from 'react'
 
 const Navbar = () => {
      const others = <>
+     <li> <Link href= "/home"> Home</Link>  </li>
       <li><Link href='/about'>About</Link></li>
       <li><Link href='/product'> Product </Link></li>
        <li><Link href='/about/secsion'>Secsion</Link></li>
        <li><Link href= "/blogs"> Blog</Link></li>
+       
+       
      </>
      Link
 
